@@ -175,7 +175,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+                        "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -188,7 +188,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -201,7 +201,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -237,21 +237,21 @@
             "id": "AssetParameters",
             "path": "ApiLambdaCrudDynamoDBExample/AssetParameters",
             "children": {
-              "cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57": {
-                "id": "cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
-                "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+              "e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e": {
+                "id": "e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
+                "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
                 "children": {
                   "S3Bucket": {
                     "id": "S3Bucket",
-                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/S3Bucket"
+                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/S3Bucket"
                   },
                   "S3VersionKey": {
                     "id": "S3VersionKey",
-                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/S3VersionKey"
+                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/S3VersionKey"
                   },
                   "ArtifactHash": {
                     "id": "ArtifactHash",
-                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/ArtifactHash"
+                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/ArtifactHash"
                   }
                 }
               }
@@ -376,7 +376,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+                        "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -389,7 +389,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -402,7 +402,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -553,7 +553,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+                        "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -566,7 +566,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -579,7 +579,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -730,7 +730,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+                        "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -743,7 +743,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -756,7 +756,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -907,7 +907,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+                        "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -920,7 +920,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }
@@ -933,7 +933,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                                      "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                                     }
                                   ]
                                 }

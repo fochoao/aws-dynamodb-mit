@@ -18,13 +18,13 @@
           {
             "type": "aws:cdk:asset",
             "data": {
-              "path": "asset.cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
-              "id": "cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+              "path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
+              "id": "e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
               "packaging": "zip",
-              "sourceHash": "cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
-              "s3BucketParameter": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0",
-              "s3KeyParameter": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0",
-              "artifactHashParameter": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57ArtifactHashF8273DBB"
+              "sourceHash": "e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
+              "s3BucketParameter": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144",
+              "s3KeyParameter": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252",
+              "artifactHashParameter": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eArtifactHash08D59C74"
             },
             "trace": [
               "ConstructNode.addMetadata (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\construct-compat.js:306:62)",
@@ -137,10 +137,10 @@
             ]
           }
         ],
-        "/ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/S3Bucket": [
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/S3Bucket": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0",
+            "data": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144",
             "trace": [
               "new FileAssetParameters (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:11:36)",
               "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:119:22)",
@@ -161,10 +161,10 @@
             ]
           }
         ],
-        "/ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/S3VersionKey": [
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/S3VersionKey": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0",
+            "data": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252",
             "trace": [
               "new FileAssetParameters (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:15:35)",
               "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:119:22)",
@@ -185,10 +185,10 @@
             ]
           }
         ],
-        "/ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/ArtifactHash": [
+        "/ApiLambdaCrudDynamoDBExample/AssetParameters/e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e/ArtifactHash": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57ArtifactHashF8273DBB",
+            "data": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eArtifactHash08D59C74",
             "trace": [
               "new FileAssetParameters (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\private\\asset-parameters.js:19:38)",
               "LegacyStackSynthesizer.doAddFileAsset (c:\\Users\\fochoaolivares\\aws-dynamodb-mit\\node_modules\\@aws-cdk\\core\\lib\\stack-synthesizers\\legacy.js:119:22)",

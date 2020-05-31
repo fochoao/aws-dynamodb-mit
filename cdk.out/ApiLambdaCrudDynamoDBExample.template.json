@@ -119,7 +119,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+            "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
           },
           "S3Key": {
             "Fn::Join": [
@@ -132,7 +132,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -145,7 +145,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -179,7 +179,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "ApiLambdaCrudDynamoDBExample/getOneItemFunction/Resource",
-        "aws:asset:path": "asset.cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+        "aws:asset:path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
         "aws:asset:property": "Code"
       }
     },
@@ -267,7 +267,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+            "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
           },
           "S3Key": {
             "Fn::Join": [
@@ -280,7 +280,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -293,7 +293,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -327,7 +327,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "ApiLambdaCrudDynamoDBExample/getAllItemsFunction/Resource",
-        "aws:asset:path": "asset.cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+        "aws:asset:path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
         "aws:asset:property": "Code"
       }
     },
@@ -415,7 +415,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+            "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
           },
           "S3Key": {
             "Fn::Join": [
@@ -428,7 +428,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -441,7 +441,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -475,7 +475,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "ApiLambdaCrudDynamoDBExample/createItemFunction/Resource",
-        "aws:asset:path": "asset.cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+        "aws:asset:path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
         "aws:asset:property": "Code"
       }
     },
@@ -563,7 +563,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+            "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
           },
           "S3Key": {
             "Fn::Join": [
@@ -576,7 +576,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -589,7 +589,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -623,7 +623,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "ApiLambdaCrudDynamoDBExample/updateItemFunction/Resource",
-        "aws:asset:path": "asset.cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+        "aws:asset:path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
         "aws:asset:property": "Code"
       }
     },
@@ -711,7 +711,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": {
-            "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
+            "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144"
           },
           "S3Key": {
             "Fn::Join": [
@@ -724,7 +724,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -737,7 +737,7 @@
                       "Fn::Split": [
                         "||",
                         {
-                          "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
+                          "Ref": "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252"
                         }
                       ]
                     }
@@ -771,7 +771,7 @@
       ],
       "Metadata": {
         "aws:cdk:path": "ApiLambdaCrudDynamoDBExample/deleteItemFunction/Resource",
-        "aws:asset:path": "asset.cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+        "aws:asset:path": "asset.e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e",
         "aws:asset:property": "Code"
       }
     },
@@ -1633,17 +1633,17 @@
     }
   },
   "Parameters": {
-    "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0": {
+    "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3Bucket5C0CF144": {
       "Type": "String",
-      "Description": "S3 bucket for asset \"cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57\""
+      "Description": "S3 bucket for asset \"e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e\""
     },
-    "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0": {
+    "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eS3VersionKey9208D252": {
       "Type": "String",
-      "Description": "S3 key for asset version \"cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57\""
+      "Description": "S3 key for asset version \"e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e\""
     },
-    "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57ArtifactHashF8273DBB": {
+    "AssetParameterse85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645eArtifactHash08D59C74": {
       "Type": "String",
-      "Description": "Artifact hash for asset \"cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57\""
+      "Description": "Artifact hash for asset \"e85a13bccf20276ab8b3e9f3f61e378e3a4af58b2f320b3ec2a6ac45595f645e\""
     }
   },
   "Outputs": {
