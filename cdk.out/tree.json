@@ -24,21 +24,21 @@
                   "aws:cdk:cloudformation:props": {
                     "keySchema": [
                       {
-                        "attributeName": "bookname",
+                        "attributeName": "bookid",
                         "keyType": "HASH"
                       },
                       {
-                        "attributeName": "bookauthor",
+                        "attributeName": "bookname",
                         "keyType": "RANGE"
                       }
                     ],
                     "attributeDefinitions": [
                       {
-                        "attributeName": "bookname",
-                        "attributeType": "S"
+                        "attributeName": "bookid",
+                        "attributeType": "N"
                       },
                       {
-                        "attributeName": "bookauthor",
+                        "attributeName": "bookname",
                         "attributeType": "S"
                       }
                     ],
@@ -175,7 +175,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3Bucket09D45E9E"
+                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -188,7 +188,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -201,7 +201,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -224,7 +224,8 @@
                         "TABLE_NAME": {
                           "Ref": "items07D08F4B"
                         },
-                        "PRIMARY_KEY": "bookid"
+                        "PARTITION_KEY": "bookid",
+                        "SORT_KEY": "bookname"
                       }
                     }
                   }
@@ -236,21 +237,21 @@
             "id": "AssetParameters",
             "path": "ApiLambdaCrudDynamoDBExample/AssetParameters",
             "children": {
-              "7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3": {
-                "id": "7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3",
-                "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3",
+              "cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57": {
+                "id": "cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
+                "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57",
                 "children": {
                   "S3Bucket": {
                     "id": "S3Bucket",
-                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3/S3Bucket"
+                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/S3Bucket"
                   },
                   "S3VersionKey": {
                     "id": "S3VersionKey",
-                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3/S3VersionKey"
+                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/S3VersionKey"
                   },
                   "ArtifactHash": {
                     "id": "ArtifactHash",
-                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3/ArtifactHash"
+                    "path": "ApiLambdaCrudDynamoDBExample/AssetParameters/cfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57/ArtifactHash"
                   }
                 }
               }
@@ -375,7 +376,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3Bucket09D45E9E"
+                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -388,7 +389,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -401,7 +402,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -424,7 +425,8 @@
                         "TABLE_NAME": {
                           "Ref": "items07D08F4B"
                         },
-                        "PRIMARY_KEY": "bookid"
+                        "PARTITION_KEY": "bookid",
+                        "SORT_KEY": "bookname"
                       }
                     }
                   }
@@ -551,7 +553,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3Bucket09D45E9E"
+                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -564,7 +566,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -577,7 +579,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -600,7 +602,8 @@
                         "TABLE_NAME": {
                           "Ref": "items07D08F4B"
                         },
-                        "PRIMARY_KEY": "bookid"
+                        "PARTITION_KEY": "bookid",
+                        "SORT_KEY": "bookname"
                       }
                     }
                   }
@@ -727,7 +730,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3Bucket09D45E9E"
+                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -740,7 +743,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -753,7 +756,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -776,7 +779,8 @@
                         "TABLE_NAME": {
                           "Ref": "items07D08F4B"
                         },
-                        "PRIMARY_KEY": "bookid"
+                        "PARTITION_KEY": "bookid",
+                        "SORT_KEY": "bookname"
                       }
                     }
                   }
@@ -903,7 +907,7 @@
                   "aws:cdk:cloudformation:props": {
                     "code": {
                       "s3Bucket": {
-                        "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3Bucket09D45E9E"
+                        "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3BucketCDE4D9C0"
                       },
                       "s3Key": {
                         "Fn::Join": [
@@ -916,7 +920,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -929,7 +933,7 @@
                                   "Fn::Split": [
                                     "||",
                                     {
-                                      "Ref": "AssetParameters7cfd0312baa79d3c8f0d37165e93837a2d769d8f1e1a1767fffa237cfd957ee3S3VersionKey8E399884"
+                                      "Ref": "AssetParameterscfd5ae1f2e16e44a7e870046cb4826a5a7ed0ebd262e9ba17ba568254d14fc57S3VersionKeyFC2663B0"
                                     }
                                   ]
                                 }
@@ -952,7 +956,8 @@
                         "TABLE_NAME": {
                           "Ref": "items07D08F4B"
                         },
-                        "PRIMARY_KEY": "bookid"
+                        "PARTITION_KEY": "bookid",
+                        "SORT_KEY": "bookname"
                       }
                     }
                   }
