@@ -62,3 +62,17 @@ After building your TypeScript code, you will be able to run the CDK toolkits co
 
     $ cdk diff
     <shows diff against deployed stack>
+
+To Commit Via AWS Command Use In Git Bash which I recommend You Must Have Set Up Apart From GitHub Desktop, both work different:
+
+    $ launch git in bash mode
+
+And Issue This Command:
+
+    $ aws dynamodb put-item \
+      --table-name Books \
+      --item '{
+        "bookid": { "N": "1" },
+        "bookname": { "S": "Veinte mil leguas de viaje submarino" }
+      }' \
+      $LOCAL
